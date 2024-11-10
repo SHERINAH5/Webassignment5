@@ -1,0 +1,55 @@
+
+.decor{
+    text-decoration-line: underline;
+    text-decoration-color: palevioletred;
+    
+}
+.food{
+    font-weight: 700;
+    vertical-align: sub;
+}
+body{
+    background-color: aqua;
+}
+.text-spacing{
+    letter-spacing: 3px;
+    line-height:1.5 ;
+}
+.text-shadow{
+    text-shadow:3px 3px purple ;
+}
+.display{
+    display: none;
+}
+.overflow{
+    width: 150px;
+    height: 100px;
+    background-color: pink;
+    overflow: scroll;
+}
+.flow{
+    width: 200px;
+    height: 150px;
+    background-color:red ;
+    overflow: hidden;
+}
+.image{
+    position: relative;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%,-50%);
+}
+.tree{
+    position: absolute;
+    left: 40%;
+    top: 50%;
+    z-index: -1;
+}
+.link{
+    background-color: purple;
+    color: antiquewhite;
+    padding: 14px25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}

@@ -1,0 +1,35 @@
+body{
+    background-image:url(../images/houss.jpeg);
+    background-repeat: no-repeat;
+    background-position: absolute;
+    background-size: cover;
+    opacity: 0.8;
+    z-index: 1;
+    height: 100vh;
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+    position: relative;
+    margin: 0;
+
+}
+.text{
+    position: absolute;
+    color: black;
+}
+.top-left{
+    top: 10px;
+    right: 10px;
+}
+.top-right{
+    top: 10px;
+    left: 10px;
+}
+.bottom-left{
+    bottom: 10px;
+    left:10px ;
+}
+.bottom-right{
+    bottom: 10px;
+    right: 10px;
+}
